@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #212121;
 }
 /*Cкрытые заголовоки, точки*/
 .visually-hidden {
@@ -65,17 +66,13 @@ text-transform: uppercase;
 color: #FFFFFF
 }
 
-.u-button:focus {
+.u-button {
     font-weight: 700;
 font-size: 16px;
 line-height: 30px;
 color: #FFFFFF;
 background: #2196F3;
-}
-
-.u-button:active {
-    color: #2196F3;
-    background: #FFFFFF;
+cursor: pointer
 }
 
 /* FEATURES SECTION */
@@ -170,12 +167,13 @@ line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+cursor: pointer
 }
 .buttons:hover {
     color: #FFFFFF;
     background: #2196F3;
 }
-.buttons:active {
+.buttons:focus {
     color: #2196F3;
     background: #FFFFFF;
 }
