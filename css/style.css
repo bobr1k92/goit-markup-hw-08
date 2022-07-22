@@ -18,15 +18,27 @@ body {
   ul {
     list-style: none;
   }
+  .link {
+    text-decoration: none;
+  }
 
 /* NAV SECTION*/
-.nav-logo {
+.nav-logo-blue {
     font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.nav-logo-black {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+
 }
 .nav-list .link {
     font-weight: 500;
@@ -133,7 +145,16 @@ color: #757575;
 .footer-section {
     background: #2F303A;
 }
-.ftr-logo {
+.ftr-logo-blue {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    
+}
+.ftr-logo-white {
     font-weight: 700;
 font-size: 26px;
 line-height: 31px;
