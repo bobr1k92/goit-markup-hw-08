@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
+:root {
+    --accent-color: #2196F3;
+  }
+
 /*Cкрытые заголовоки, точки*/
 .visually-hidden {
     position: absolute;
@@ -20,9 +24,6 @@ body {
   }
   .link {
     text-decoration: none;
-  }
-  :root {
-    --accent-color: #2196F3;
   }
 
 /* NAV SECTION*/
