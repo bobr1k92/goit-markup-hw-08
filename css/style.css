@@ -65,7 +65,7 @@ text-transform: uppercase;
 color: #FFFFFF
 }
 
-.u-button {
+.u-button:focus {
     font-weight: 700;
 font-size: 16px;
 line-height: 30px;
