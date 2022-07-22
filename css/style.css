@@ -72,7 +72,7 @@ font-size: 16px;
 line-height: 30px;
 color: #FFFFFF;
 background: #2196F3;
-cursor: pointer
+cursor: pointer;
 }
 
 /* FEATURES SECTION */
@@ -167,7 +167,7 @@ line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-cursor: pointer
+cursor: pointer;
 }
 .buttons:hover {
     color: #FFFFFF;
