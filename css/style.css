@@ -21,7 +21,6 @@ body {
 /* NAV SECTION*/
 .nav-logo {
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
@@ -41,9 +40,7 @@ color: #212121;
 /* HEADER SECTION*/
 
 .header-list .link {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+    font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -58,7 +55,6 @@ color: #757575;
 }
 
 .u-title {
-
     font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -69,7 +65,7 @@ color: #FFFFFF
 }
 
 .u-button {
-font-weight: 700;
+    font-weight: 700;
 font-size: 16px;
 line-height: 30px;
 color: #FFFFFF;
@@ -93,8 +89,7 @@ text-transform: uppercase;
 color: #212121;
 }
 .f-text {
-    font-weight: 400;
-font-size: 14px;
+    font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;
@@ -129,8 +124,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .job-title {
-    font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 line-height: 19px;
 /* text-align: center; */
 letter-spacing: 0.03em;
@@ -148,8 +142,7 @@ letter-spacing: 0.03em;
 color:#FFFFFF;
 }
 .adrs-link {
-    font-weight: 400;
-font-size: 14px;
+    font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
@@ -158,8 +151,7 @@ color: #FFFFFF;
    color: #2196F3;
 }
 .ftr-link {
-    font-weight: 400;
-font-size: 14px;
+    font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
