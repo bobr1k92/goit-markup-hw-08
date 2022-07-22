@@ -37,8 +37,8 @@ color: #212121;
 .nav-list .link:hover, .link:focus {
     color: #2196F3;
 }
-/* HEADER SECTION*/
 
+/* HEADER SECTION*/
 .header-list .link {
     font-weight: 500;
 font-size: 14px;
@@ -49,6 +49,7 @@ color: #757575;
 .header-list .link:hover, .link:focus {
     color: #2196F3;
 }
+
 /* UNIQUE SECTION */
 .unique {
     background: #2F303A;
@@ -71,13 +72,11 @@ line-height: 30px;
 color: #FFFFFF;
 background: #2196F3;
 }
+
 .u-button:active {
     color: #2196F3;
     background: #FFFFFF;
 }
-/* .u-button:focus {
-    color: #FFFFFF;
-} */
 
 /* FEATURES SECTION */
 .f-title {
@@ -94,6 +93,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;
 }
+
 /* PROJECT SECTION */
 .p-title {
     font-weight: 700;
@@ -103,6 +103,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
+
 /* TEAM SECTION */
 .team-section {
     background: #F5F4FA;
@@ -130,6 +131,7 @@ line-height: 19px;
 letter-spacing: 0.03em;
 color: #757575;
 }
+
 /* FOOTER SECTION */
 .footer-section {
     background: #2F303A;
@@ -159,6 +161,7 @@ color: rgba(255, 255, 255, 0.6);
 .ftr-link:hover, :focus {
     color:#2196F3;
 }
+
 /* PORTFOLIO */
 .buttons {
     font-weight: 500;
