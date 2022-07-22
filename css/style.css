@@ -124,16 +124,15 @@ color: #212121;
     font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-text-align: center;
+/* text-align: center; */
 letter-spacing: 0.03em;
 color: #212121;
 }
 .job-title {
-    font-style: normal;
-font-weight: 400;
+    font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-text-align: center;
+/* text-align: center; */
 letter-spacing: 0.03em;
 color: #757575;
 }
