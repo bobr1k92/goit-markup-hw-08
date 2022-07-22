@@ -21,6 +21,9 @@ body {
   .link {
     text-decoration: none;
   }
+  :root {
+    --accent-color: #2196F3;
+  }
 
 /* NAV SECTION*/
 .nav-logo-blue {
@@ -48,7 +51,7 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 .nav-list .link:hover, .link:focus {
-    color: #2196F3;
+    color: var(--accent-color)
 }
 
 /* HEADER SECTION*/
@@ -60,7 +63,7 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 .header-list .link:hover, .link:focus {
-    color: #2196F3;
+    color: var(--accent-color)
 }
 
 /* UNIQUE SECTION */
@@ -75,7 +78,7 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF
+color: #FFFFFF;
 }
 
 .u-button {
@@ -168,7 +171,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 .adrs-link:hover, :focus {
-   color: #2196F3;
+   color: var(--accent-color)
 }
 .ftr-link {
     font-size: 14px;
@@ -177,7 +180,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .ftr-link:hover, :focus {
-    color:#2196F3;
+    color: var(--accent-color)
 }
 
 /* PORTFOLIO */
@@ -192,9 +195,10 @@ cursor: pointer;
 }
 .buttons:hover {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--accent-color)
 }
 .buttons:focus {
-    color: #2196F3;
     background: #FFFFFF;
+    color: var(--accent-color)
+    
 }
