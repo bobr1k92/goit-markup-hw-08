@@ -194,7 +194,8 @@ color: var(--default-write);
    color: var(--accent-color);
 }
 .footer-link {
-    font-size: 14px;
+    font-style: normal;
+font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
