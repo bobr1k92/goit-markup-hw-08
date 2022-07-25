@@ -9,7 +9,8 @@
   
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--main-black)
+    
 }
 
 /*Cкрытые заголовоки, точки*/
@@ -25,6 +26,7 @@ body {
     clip-path: inset(50%);
     margin: -1px;
   }
+ 
   ul {
     list-style: none;
   }
@@ -37,7 +39,7 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
@@ -51,8 +53,7 @@ body {
 
 }
 .nav-list .link {
-    font-style: normal;
-font-weight: 500;
+    font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -64,8 +65,7 @@ color: var(--main-black);
 
 /* HEADER SECTION*/
 .header-list .link {
-    font-style: normal
-font-weight: 500;
+    font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -109,19 +109,20 @@ background: var(--default-write);
 
 
 /* FEATURES SECTION */
-.project-title {
+.features-title {
     font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--main-black);
+color: var(--main-black)
+
 }
-.project-text {
+.features-text {
     font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--main-grey);
+color: var(--main-grey)
 }
 
 /* PROJECT SECTION */
@@ -193,8 +194,7 @@ color: var(--default-write);
    color: var(--accent-color);
 }
 .footer-link {
-    font-style: normal;
-font-size: 14px;
+    font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
@@ -203,7 +203,7 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--accent-color);
 }
 
-/* PORTFOLIO */
+/* FILTER BUTTONS */
 .buttons {
     font-weight: 500;
 font-size: 16px;
@@ -214,9 +214,10 @@ color: var(--main-black);
 cursor: pointer;
 }
 .buttons:hover, .buttons:focus {
-    color: var(--main-write);
-    background: var(--accent-color);
+ color: var(--default-write);
+ background: var(--accent-color);
 }
+/* PORTFOLIO SECTION */
 .name-portfolio {
     font-weight: 700;
 font-size: 18px;
@@ -225,8 +226,7 @@ letter-spacing: 0.06em;
 color: var(--main-black);
 }
 .projects-name {
-    font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--main-grey);
