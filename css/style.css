@@ -91,7 +91,8 @@ color: var(--default-write);
 }
 
 .unique-button {
-    font-weight: 700;
+    font-family: inherit;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 color: var(--default-write);
@@ -206,7 +207,8 @@ color: rgba(255, 255, 255, 0.6);
 
 /* FILTER BUTTONS */
 .buttons {
-    font-weight: 500;
+    font-family: inherit;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
