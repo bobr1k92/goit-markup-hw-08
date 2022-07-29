@@ -56,9 +56,6 @@ body {
      display: flex;
 }
 
-.header-section {
-    display:flex
-}
 /* NAV SECTION*/
 .nav-logo-blue {
         display: block;
