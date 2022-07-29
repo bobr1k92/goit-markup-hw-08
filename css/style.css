@@ -39,6 +39,7 @@ body {
   }
   img {
     display: block;
+    max-width: 100%;
     height: auto;
   }
   .marker {
@@ -351,15 +352,12 @@ border: none;
 }
 .portfolio-items {
     margin-bottom: 30px;
-    border-width: 370px;
+    padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;
 }
-.portfolio-items:nth-last-child(-n + 3) {
-    margin-bottom: 0;
-}
+
 .name-portfolio {
-    margin-top: 20px;
     font-weight: 700;
 font-size: 18px;
 line-height: 2.00;
@@ -367,8 +365,8 @@ letter-spacing: 0.06em;
 color: var(--main-black);
 }
 .projects-name {
-    /* margin-bottom: 50px;
-    width: 322px;
+    /* margin-bottom: 30px;
+     width: 322px;
     height: 30px; */
     margin-top: 4px;
     font-size: 16px;
