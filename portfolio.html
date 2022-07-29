@@ -21,46 +21,67 @@
   <body>
     <header>
       <div class="container">
-        <nav>
-          <a href="" class="nav-logo-blue marker"
-            >Web<span class="nav-logo-black marker">Studio</span></a
-          >
-          <ul class="nav-list">
-            <li><a href="./index.html" class="link marker">Студия</a></li>
-            <li><a href="" class="link marker">Портфолио</a></li>
-            <li><a href="" class="link marker">Контакты</a></li>
+        <div class="nav-container">
+          <nav class="nav-section">
+            <a href="" class="nav-logo-blue marker"
+              >Web<span class="nav-logo-black marker">Studio</span></a
+            >
+            <ul class="nav-list">
+              <li class="item">
+                <a href="./index.html" class="link marker">Студия</a>
+              </li>
+              <li class="item">
+                <a href="" class="link marker">Портфолио</a>
+              </li>
+              <li class="item">
+                <a href="" class="link marker">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link marker"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111" class="link marker"
+                >+38 096 111 11 11</a
+              >
+            </li>
           </ul>
-        </nav>
-        <ul class="header-list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link marker"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="link marker"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <!--main section-->
     <main>
       <section class="filer-section">
+        <div class="filter-container">
+          <div class="container">
+            <!--filter buttons-->
+            <h1 class="visually-hidden">Фильтры</h1>
+            <ul class="buttons-list">
+              <li class="btn">
+                <button type="button" class="buttons">Все</button>
+              </li>
+              <li class="btn">
+                <button type="button" class="buttons">Веб-сайты</button>
+              </li>
+              <li class="btn">
+                <button type="button" class="buttons">Приложения</button>
+              </li>
+              <li class="btn">
+                <button type="button" class="buttons">Дизайн</button>
+              </li>
+              <li class="btn">
+                <button type="button" class="buttons">Маркетинг</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Portfolio list-->
         <div class="container">
-          <!--filter buttons-->
-          <h1 class="visually-hidden">Фильтры</h1>
-          <ul class="buttons-list">
-            <li><button type="button" class="buttons">Все</button></li>
-            <li><button type="button" class="buttons">Веб-сайты</button></li>
-            <li><button type="button" class="buttons">Приложения</button></li>
-            <li><button type="button" class="buttons">Дизайн</button></li>
-            <li><button type="button" class="buttons">Маркетинг</button></li>
-          </ul>
-          <!--Portfolio list-->
-          <div class="portfolio-box"></div>
-          <ul>
+          <ul class="portfolio-list">
             <li>
               <img src="./image/project1.jpg" alt="" width="370" height="294" />
               <h2 class="name-portfolio">Технокряк</h2>
@@ -112,32 +133,34 @@
     </main>
     <!--footer section-->
     <footer class="footer-section">
-      <a href="" class="footer-logo-blue marker"
-        >Web<span class="footer-logo-white marker">Studio</span></a
-      >
-      <address>
-        <ul>
-          <li>
-            <a
-              href="https://goo.gl/maps/Vz4mYCQCLZ6cE9bP7"
-              class="address-link marker"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@example.com" class="footer-link marker"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380991111111" class="footer-link marker"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="" class="footer-logo-blue marker"
+          >Web<span class="footer-logo-white marker">Studio</span></a
+        >
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/Vz4mYCQCLZ6cE9bP7"
+                class="address-link marker"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@example.com" class="footer-link marker"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380991111111" class="footer-link marker"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
