@@ -261,6 +261,7 @@ color: var(--main-grey);
 
 /* FOOTER SECTION */
 .footer-section {
+    padding-bottom: 60px;
     background: var(--second-black);
 }
 .footer-logo-blue {
