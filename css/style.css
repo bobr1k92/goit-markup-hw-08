@@ -267,6 +267,7 @@ color: var(--main-grey);
 
 /* FOOTER SECTION */
 .footer-section {
+    margin-top: -30px;
     padding-top: 60px;
     padding-bottom: 60px;
     background: var(--second-black);
@@ -350,6 +351,7 @@ border: none;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .portfolio-items {
     margin-bottom: 30px;
     padding: 20px 24px;
