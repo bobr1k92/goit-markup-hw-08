@@ -329,7 +329,6 @@ color: rgba(255, 255, 255, 0.6);
 /* FILTER BUTTONS SECTION */
 
 .buttons {
-margin-bottom: 34px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -346,12 +345,13 @@ border: none;
  background: var(--accent-color);
 }
 .buttons-list {
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     /* outline: 2px solid red; */
 }
 .buttons-list .btn + .btn {
-    margin-left: 30px;
+    margin-left: 8px;
 }
 /* PORTFOLIO SECTION */
 .portfolio-list {
@@ -363,7 +363,7 @@ border: none;
 .portfolio-title {
     margin-top: 30px;
 }
-.portfolio-title:nth-of-type(-n+3) {
+.portfolio-title:nth-child(-n+3) {
     margin-top: 0;
 }
 
