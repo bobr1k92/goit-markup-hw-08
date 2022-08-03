@@ -106,10 +106,9 @@ color: var(--main-black);
     color: var(--accent-color);
 }
 
-.nav-list .item + .item {
+.nav-list .nav-item+ .nav-item {
     margin-left: 50px;
 }
-
 
 /* HEADER SECTION*/
 .header-list {
@@ -128,17 +127,22 @@ color: var(--main-grey);
 .header-list .link:hover, .link:focus {
     color: var(--accent-color);
 }
-.header-list .item + .item {
+.header-list .header-item + .header-item {
     margin-left: 50px;
-
 }
 
 /* UNIQUE SECTION */
 .unique-section {
     padding-top: 200px;
 padding-bottom: 200px;
-background: var(--second-black);
+background:#C4C4C4;
 text-align: center;
+margin-left: auto;
+margin-right: auto;
+max-width: 1600px;
+height: 600px;
+background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+ url(../image/overlay.jpg);
 }
 
 .unique-title {
