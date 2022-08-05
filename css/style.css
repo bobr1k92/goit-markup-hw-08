@@ -130,6 +130,19 @@ color: var(--main-grey);
 .header-list .header-item + .header-item {
     margin-left: 50px;
 }
+.icon-envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+.icon-smartphone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
 
 /* UNIQUE SECTION */
 .unique-section {
