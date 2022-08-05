@@ -206,6 +206,18 @@ background: var(--default-write);
 .features-list .item + .item {
     margin-left: 30px;
 }
+.icon-antenna {
+    margin: 0 auto;
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-color: #F5F4FA;
+}
+.svg-antenna {
+    width: 70px;
+    height: 70px;
+    background-position: center;
+}
 
 .features-title {
     font-weight: 700;
@@ -284,11 +296,31 @@ color: var(--main-black);
 }
 .job-title {
     margin-top: 10px;
+    margin-bottom: 16px;
     font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-grey);
+}
+
+.soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.soc-link {
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.soc-icon {
+    fill: #FFFFFF;
 }
 
 /* FOOTER SECTION */
