@@ -5,7 +5,7 @@
     --second-black: #2F303A;
     --main-grey: #757575;
     --accent-color: #2196F3;
-    --social-icon: #afb1b8
+    --social-icon: #afb1b8;
   }
   
 body {
@@ -214,7 +214,7 @@ background: var(--default-write);
     align-items: center;
     justify-content: center;
     background-color: #F5F4FA;  
-    border-width: 270px;
+        border-width: 270px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);  
 }
@@ -342,6 +342,47 @@ color: var(--main-grey);
 .soc-link:focus .soc-icon {
     fill: var(--default-write);
 }
+.partners-section {
+    margin-bottom: 108px;
+    height: 222px;
+    /* outline: 1px solid red; */
+}
+.partners {
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-black);
+margin-top: 59px;
+margin-bottom: 85px;
+
+}
+.partner-lists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    outline: 1px solid red;
+}
+.partner-items {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 170px;
+    border: 1px solid #AFB1B8;
+}
+.partner-icons {
+    fill: var(--social-icon);
+    width: 106px;
+    height: 60px;
+}
+.partner-icons:hover {
+    fill: var(--accent-color)
+}
 
 /* FOOTER SECTION */
 .footer-section {
@@ -349,19 +390,36 @@ color: var(--main-grey);
     padding-bottom: 60px;
     background: var(--second-black);
 }
+.footer-soc-title {
+    display: flex;
+    width: 116px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--default-write);
+    outline: 1px solid red;
+    margin-bottom: 20px;
+}
 .footer-soc-list {
+    padding-left: 70px;
     display: flex;
     justify-content: center;
     gap: 10px;
+    outline: 1px solid red;
 }
 .footer-soc-link {
-
     width: 44px;
     height: 44px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content:center;
+    background: rgba(255, 255, 255, 0.1);
 }
 .footer-soc-link:hover, .footer-soc-link:focus {
     background-color: var(--accent-color);
@@ -370,7 +428,7 @@ color: var(--main-grey);
 .footer-soc-icon {
     width: 20px;
     height: 20px;
-    fill: var(--social-icon);
+    fill: var(--default-write)
 }
 .footer-soc-link:hover .footer-soc-icon, 
 .footer-soc-link:focus .footer-soc-icon {
