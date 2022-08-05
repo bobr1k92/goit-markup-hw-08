@@ -5,6 +5,7 @@
     --second-black: #2F303A;
     --main-grey: #757575;
     --accent-color: #2196F3;
+    --social-icon: #afb1b8
   }
   
 body {
@@ -199,24 +200,34 @@ background: var(--default-write);
 
 
 /* FEATURES SECTION */
+.features-list-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.features-icons {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;  
+    border-width: 270px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);  
+}
+.icon-antenna {
+    width: 70px;
+    height: 70px;
+}
 
 .features-list {
     display: flex;
 }
 .features-list .item + .item {
     margin-left: 30px;
-}
-.icon-antenna {
-    margin: 0 auto;
-    width: 270px;
-    height: 120px;
-    display: block;
-    background-color: #F5F4FA;
-}
-.svg-antenna {
-    width: 70px;
-    height: 70px;
-    background-position: center;
 }
 
 .features-title {
@@ -314,13 +325,22 @@ color: var(--main-grey);
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #2196F3;
     display: flex;
     align-items: center;
     justify-content:center;
 }
+.soc-link:hover, .soc-link:focus {
+    background-color: var(--accent-color);
+}
+
 .soc-icon {
-    fill: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    fill: var(--social-icon);
+}
+.soc-link:hover .soc-icon, 
+.soc-link:focus .soc-icon {
+    fill: var(--default-write);
 }
 
 /* FOOTER SECTION */
@@ -328,6 +348,33 @@ color: var(--main-grey);
     padding-top: 60px;
     padding-bottom: 60px;
     background: var(--second-black);
+}
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-soc-link {
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.footer-soc-link:hover, .footer-soc-link:focus {
+    background-color: var(--accent-color);
+}
+
+.footer-soc-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--social-icon);
+}
+.footer-soc-link:hover .footer-soc-icon, 
+.footer-soc-link:focus .footer-soc-icon {
+    fill: var(--default-write);
 }
 .footer-logo-blue {
     margin-bottom: 20px;
@@ -397,7 +444,7 @@ border: none;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
-    /* outline: 2px solid red; */
+    /* outline: 2p solid red; */
 }
 .buttons-list .btn + .btn {
     margin-left: 8px;

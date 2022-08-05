@@ -1,3 +1,6 @@
 {
     "files.autoSave": "onFocusChange"
 }
+{
+    "htmlWhitespaceSensitivity": "strict.css"
+}
