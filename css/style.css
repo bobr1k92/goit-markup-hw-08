@@ -366,15 +366,7 @@ margin-bottom: 85px;
     gap: 30px;
     /* outline: 1px solid red; */
 }
-.partner-items {
-    /* width: 170px;
-    height: 92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-width: 170px;
-    border: 1px solid #AFB1B8; */
-}
+
 .partner-links{
     width: 170px;
     height: 92px;
@@ -382,21 +374,26 @@ margin-bottom: 85px;
     align-items: center;
     justify-content: center;
     border-width: 170px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--social-icon);
+    border-radius: 4px;
 }
-.partner-links:hover {
-    border: 1px solid var(--accent-color);
+.partner-links:hover, .partner-links:focus {
+    border-color: var(--accent-color);
+}
+
+.partner-links:hover .partner-icons, 
+.partner-links:focus .partner-icons {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .partner-icons {
     fill: var(--social-icon);
-    width: 106px;
-    height: 60px;
 }
 
-.partner-icons:hover {
+/* .partner-icons:hover {
     fill: var(--accent-color);
-}
+} */
 
 
 /* FOOTER SECTION */
@@ -521,6 +518,9 @@ border: none;
 .buttons:hover, .buttons:focus {
  color: var(--default-write);
  background: var(--accent-color);
+ border-radius: 4px;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 }
 .buttons-list {
     margin-bottom: 50px;
@@ -549,6 +549,10 @@ border: none;
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;
+}
+.portfolio-title:hover {
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .name-portfolio {
