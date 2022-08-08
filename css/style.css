@@ -67,7 +67,7 @@ body {
 .header-section {
     border: 1px solid #ECECEC;
 }
-/* NAV SECTION*/
+/* NAVIGATION SECTION*/
 .nav-logo-blue {
         display: block;
         margin-right: 93px;
@@ -153,7 +153,7 @@ background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
  url(../image/overlay.jpg);
  background-position: center;
  background-repeat: no-repeat;
- background-size: contain;
+ background-size: cover;
 
 }
 
