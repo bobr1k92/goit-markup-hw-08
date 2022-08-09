@@ -333,9 +333,7 @@ color: var(--main-grey);
 .soc-link:focus .soc-icon {
     fill: var(--default-write);
 }
-.partners-section {
-padding-top: 0;
-}
+
 .partners-title {
     font-style: normal;
 font-weight: 700;
