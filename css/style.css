@@ -560,7 +560,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     visibility: visible;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop.is-hidden {
+.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -585,6 +585,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .btn-close {
 position: absolute;
+display: flex;
+justify-content: center;
 top: 8px;
 right: 8px;
 width: 30px;
@@ -593,11 +595,9 @@ background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 cursor: pointer;
-padding: 6px;
+padding-top: 5px;
 }
-.modal-btn-icon {
-    background-position: center;
-}
+
 
 .no-scroll {
     overflow:hidden ;
