@@ -592,12 +592,11 @@ height: 30px;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
+cursor: pointer;
+padding: 6px;
 }
 .modal-btn-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 6px, 6px;
+    background-position: center;
 }
 
 .no-scroll {
