@@ -640,8 +640,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 /* PORTFOLIO SECTION */
 .portfolio-overley-list {
     position: relative;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 
 .portfolio-list {
