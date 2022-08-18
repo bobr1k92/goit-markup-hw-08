@@ -757,13 +757,11 @@ padding-top: 5px;
   
   .modal-form-comment {
     margin-top: 4px;
-  
     padding: 16px 12px;
     height: 120px;
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-  
     resize: none;
   }
   
@@ -771,7 +769,6 @@ padding-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-  
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
