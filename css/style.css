@@ -449,6 +449,9 @@ margin-bottom: 50px;
     display: flex;
     align-items: baseline;
 }
+.contact-container {
+    flex-grow: 1;
+}
 
 
 .footer-logo-blue {
