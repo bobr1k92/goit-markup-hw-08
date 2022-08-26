@@ -884,6 +884,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden; 
 }
+.portfolio-overley-list:hover .portfolio-overley, 
+.portfolio-overley-list:focus .portfolio-overley {
+    transform: translateY(0);
+}
 
 .portfolio-list {
     display: flex;
@@ -903,8 +907,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover .portfolio-overley, 
-.portfolio-link:focus .portfolio-overley {
+.portfolio-link:hover, 
+.portfolio-link:focus {
     border-radius: 4px;
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  transform: translateY(0);
