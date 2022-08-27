@@ -21,43 +21,41 @@
   </head>
   <body>
     <header class="header-section">
-      <div class="container">
-        <div class="nav-container">
-          <nav class="nav-section">
-            <a href="" class="nav-logo-blue marker"
-              >Web<span class="nav-logo-black marker">Studio</span></a
-            >
-            <ul class="nav-list">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-link marker">Студия</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link marker current">Портфолио</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link marker">Контакты</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="header-list flex">
-            <li class="header-item">
-              <a href="mailto:info@devstudio.com" class="header-link marker">
-                <svg class="header-icons" width="16" height="12">
-                  <use href="./image/icon.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
+      <div class="container header__container">
+        <a href="" class="logo header__logo marker"
+          >Web<span class="logo__dark marker">Studio</span></a
+        >
+        <nav class="navigation">
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link marker">Студия</a>
             </li>
-            <li class="header-item">
-              <a href="tel:+380961111111" class="header-link marker">
-                <svg class="header-icons" width="10" height="16">
-                  <use href="./image/icon.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link marker current">Портфолио</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link marker">Контакты</a>
             </li>
           </ul>
-        </div>
+        </nav>
+        <ul class="contacts">
+          <li class="header-item">
+            <a href="mailto:info@devstudio.com" class="contacts__link marker">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./image/icon.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header-item">
+            <a href="tel:+380961111111" class="contacts__link marker">
+              <svg class="contacts-icon" width="10" height="16">
+                <use href="./image/icon.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <!--main section-->
@@ -85,7 +83,7 @@
           </ul>
           <!--Portfolio list-->
           <ul class="portfolio-list">
-            <li class="portfolio-title">
+            <li class="portfolio-item">
               <a href="" class="portfolio-link marker">
                 <div class="portfolio-overley-list">
                   <img
@@ -100,13 +98,13 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-items">
+                <div class="portfolio-title">
                   <h2 class="name-portfolio">Технокряк</h2>
                   <p class="projects-name">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-title">
+            <li class="portfolio-item">
               <a href="" class="portfolio-link marker"
                 ><div class="portfolio-overley-list">
                   <img
@@ -121,7 +119,7 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-items">
+                <div class="portfolio-title">
                   <h2 class="name-portfolio"
                     >Постер New Orlean vs Golden Star</h2
                   >
@@ -129,7 +127,7 @@
                 </div></a
               >
             </li>
-            <li class="portfolio-title">
+            <li class="portfolio-item">
               <a href="" class="portfolio-link marker"
                 ><div class="portfolio-overley-list">
                   <img
@@ -144,13 +142,13 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-items">
+                <div class="portfolio-title">
                   <h2 class="name-portfolio">Ресторан Seafood</h2>
                   <p class="projects-name">Приложение</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-title">
+            <li class="portfolio-item">
               <a href="" class="portfolio-link marker"
                 ><div class="portfolio-overley-list">
                   <img
@@ -165,13 +163,13 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-items">
+                <div class="portfolio-title">
                   <h2 class="name-portfolio">Проект Prime</h2>
                   <p class="projects-name">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-title">
+            <li class="portfolio-item">
               <a href="" class="portfolio-link marker"
                 ><div class="portfolio-overley-list">
                   <img
@@ -186,14 +184,14 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-items">
+                <div class="portfolio-title">
                   <h2 class="name-portfolio">Проект Boxes</h2>
                   <p class="projects-name">Приложение</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-title">
-              <a href="" class="portfolio-link"
+            <li class="portfolio-item">
+              <a href="" class="portfolio-link marker"
                 ><div class="portfolio-overley-list">
                   <img
                     src="./image/project6.jpg"
@@ -207,13 +205,13 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-items">
+                <div class="portfolio-title">
                   <h2 class="name-portfolio">Inspiration has no Borders</h2>
                   <p class="projects-name">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-title">
+            <li class="portfolio-item">
               <a href="" class="portfolio-link marker"
                 ><div class="portfolio-overley-list">
                   <img
@@ -228,13 +226,13 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-items">
+                <div class="portfolio-title">
                   <h2 class="name-portfolio">Издание Limited Edition</h2>
                   <p class="projects-name">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-title">
+            <li class="portfolio-item">
               <a href="" class="portfolio-link marker"
                 ><div class="portfolio-overley-list">
                   <img
@@ -249,13 +247,13 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-items">
+                <div class="portfolio-title">
                   <h2 class="name-portfolio">Проект LAB</h2>
                   <p class="projects-name">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="portfolio-title">
+            <li class="portfolio-item">
               <a href="" class="portfolio-link marker"
                 ><div class="portfolio-overley-list">
                   <img
@@ -270,7 +268,7 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-items">
+                <div class="portfolio-title">
                   <h2 class="name-portfolio">Growing Business</h2>
                   <p class="projects-name">Приложение</p>
                 </div></a
@@ -281,82 +279,97 @@
       </section>
     </main>
     <!--footer section-->
-    <footer class="footer-section">
+    <footer class="footer">
       <div class="container">
-        <div class="footer-container">
-          <div class="contact-container">
-            <a href="" class="footer-logo-blue link marker"
-              >Web<span class="footer-logo-white link marker">Studio</span></a
+        <div class="footer__container">
+          <div class="address">
+            <a href="" class="logo footer__logo marker"
+              >Web<span class="logo__light marker">Studio</span></a
             >
             <address>
-              <ul class="adderss-list">
-                <li class="address-item">
+              <ul class="address__list">
+                <li class="address__item">
                   <a
                     href="https://goo.gl/maps/Vz4mYCQCLZ6cE9bP7"
-                    class="address-link marker"
+                    class="address__street marker"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >
                     г. Киев, пр-т Леси Украинки, 26
                   </a>
                 </li>
-                <li class="address-item">
-                  <a href="mailto:info@example.com" class="footer-link marker">
+                <li class="address__item">
+                  <a
+                    href="mailto:info@example.com"
+                    class="address__link marker"
+                  >
                     info@example.com
                   </a>
                 </li>
-                <li class="address-item">
-                  <a href="tel:+380991111111" class="footer-link marker">
+                <li class="address__item">
+                  <a href="tel:+380991111111" class="address__link marker">
                     +38 099 111 11 11
                   </a>
                 </li>
               </ul>
             </address>
           </div>
-          <div class="footer-soc-container">
-            <h3 class="footer-soc-title">Приєднуйтесь</h3>
-            <ul class="footer-soc-list">
-              <li class="soc-item">
-                <a href="" class="footer-soc-link">
-                  <svg class="footer-soc-icon">
-                    <use
-                      href="./image/icon.svg#icon-instagram"
-                      width="20"
-                      height="20"
-                    ></use>
+          <div class="footer__box">
+            <h3 class="footer__title">Приєднуйтесь</h3>
+            <ul class="footer__item">
+              <li>
+                <a
+                  href=""
+                  class="social-networks__link social-networks--background-color"
+                >
+                  <svg
+                    class="social-networks--icon-color"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./image/icon.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="soc-item">
-                <a href="" class="footer-soc-link">
-                  <svg class="footer-soc-icon">
-                    <use
-                      href="./image/icon.svg#icon-twitter"
-                      width="20"
-                      height="20"
-                    ></use>
+              <li>
+                <a
+                  href=""
+                  class="social-networks__link social-networks--background-color"
+                >
+                  <svg
+                    class="social-networks--icon-color"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./image/icon.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="soc-item">
-                <a href="" class="footer-soc-link">
-                  <svg class="footer-soc-icon">
-                    <use
-                      href="./image/icon.svg#icon-facebook"
-                      width="20"
-                      height="20"
-                    ></use>
+              <li>
+                <a
+                  href=""
+                  class="social-networks__link social-networks--background-color"
+                >
+                  <svg
+                    class="social-networks--icon-color"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./image/icon.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="soc-item">
-                <a href="" class="footer-soc-link">
-                  <svg class="footer-soc-icon">
-                    <use
-                      href="./image/icon.svg#icon-linkedin"
-                      width="20"
-                      height="20"
-                    ></use>
+              <li>
+                <a
+                  href=""
+                  class="social-networks__link social-networks--background-color"
+                >
+                  <svg
+                    class="social-networks--icon-color"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./image/icon.svg#icon-linkedin"></use>
                   </svg>
                 </a>
               </li>
@@ -365,7 +378,7 @@
           <!-- Subscribe-form -->
           <form class="subscribe-form">
             <label class="subscribe-label">
-              <h2 class="subscribe-tile">Підпишіться на розсилку</h2>
+              <h2 class="subscribe-title">Підпишіться на розсилку</h2>
               <input
                 type="email"
                 name="subscribe"
