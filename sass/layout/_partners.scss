@@ -12,26 +12,26 @@
   align-items: center;
   justify-content: center;
   border-width: 170px;
-  border: 1px solid var(--social-icon);
+  border: 1px solid $icon-grey-color;
   border-radius: 4px;
   transition-property: border-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: $cubic-bezier;
 
   &:hover,
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-blue-color;
   }
   &:hover .partners__icon,
   &:focus .partners__icon {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
+    fill: $accent-blue-color;
+    border-color: $accent-blue-color;
   }
 }
 
 .partners__icon {
-  fill: var(--social-icon);
+  fill: $icon-grey-color;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: $cubic-bezier;
 }

@@ -1,11 +1,8 @@
 .logo {
   display: block;
   font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
+  @include fonts(700, 26px, 1.19, 0.03em);
+  color: $accent-blue-color;
 }
 .header__logo {
   margin-right: 93px;
@@ -16,8 +13,8 @@
   margin-bottom: 20px;
 }
 .logo__dark {
-  color: var(--default-black);
+  color: $default-black-color;
 }
 .logo__light {
-  color: var(--default-write);
+  color: $default-write-color;
 }

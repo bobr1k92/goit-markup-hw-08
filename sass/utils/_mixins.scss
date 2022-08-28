@@ -1,3 +1,10 @@
+@mixin fonts($fw, $fs, $lh, $ls) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+
 @mixin for-size($range) {
   $mobile: 480px;
   $tablet: 768px;

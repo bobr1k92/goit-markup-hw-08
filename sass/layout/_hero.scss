@@ -21,42 +21,36 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 696px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include fonts(900, 44px, 1.36, 0.06em);
   text-transform: uppercase;
-  color: var(--default-write);
-  /* outline: 2px solid red; */
+  color: $default-write-color;
 }
 
 .hero-button {
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
+  @include fonts(700, 16px, 1.87, null);
   cursor: pointer;
   text-align: center;
   border-radius: 4px;
   padding: 10px 32px;
   margin-top: 30px;
-  color: var(--default-write);
-  background-color: var(--accent-color);
+  color: $default-write-color;
+  background-color: $accent-blue-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   transition-property: color, background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: $cubic-bezier;
 
   &:hover,
   &:focus {
-    color: var(--default-write);
-    background-color: var(--accent-color);
+    color: $default-write-color;
+    background-color: $accent-blue-color;
   }
 
   &:active {
-    color: var(--accent-color);
-    background-color: var(--default-write);
+    color: $accent-blue-color;
+    background-color: $default-write-color;
   }
 }

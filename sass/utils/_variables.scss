@@ -1,9 +1,9 @@
-:root {
-  --default-black: #000000;
-  --default-write: #ffffff;
-  --main-black: #212121;
-  --second-black: #2f303a;
-  --main-grey: #757575;
-  --accent-color: #2196f3;
-  --social-icon: #afb1b8;
-}
+$main-title-color: #212121;
+$main-text-color: #757575;
+$default-black-color: #000000;
+$default-write-color: #ffffff;
+$second-black-color: #2f303a;
+$accent-blue-color: #2196f3;
+$icon-grey-color: #afb1b8;
+
+$cubic-bezier: (0.4, 0, 0.2, 1);

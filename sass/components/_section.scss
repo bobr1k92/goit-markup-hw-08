@@ -1,10 +1,8 @@
 .section__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.31;
+  @include fonts(700, 36px, 1.31, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-black);
+
+  color: $main-title-color;
   margin-bottom: 50px;
 }
 .section {

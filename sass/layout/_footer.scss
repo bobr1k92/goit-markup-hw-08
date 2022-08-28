@@ -1,7 +1,7 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: var(--second-black);
+  background: $second-black-color;
 }
 
 .footer__container {
@@ -14,13 +14,10 @@
 }
 
 .footer__title {
+  @include fonts(700, 14px, 1.14, 0.03em);
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--default-write);
+  color: $default-write-color;
   margin-bottom: 20px;
 }
 
