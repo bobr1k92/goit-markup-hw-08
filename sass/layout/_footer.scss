@@ -1,0 +1,31 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--second-black);
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__box {
+  margin-left: 70px;
+}
+
+.footer__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--default-write);
+  margin-bottom: 20px;
+}
+
+.footer__item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

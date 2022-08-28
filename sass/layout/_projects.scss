@@ -1,0 +1,26 @@
+.projects {
+  display: flex;
+  gap: 30px;
+}
+.projects__item {
+  position: relative;
+}
+.projects__text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--default-write);
+}
