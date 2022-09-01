@@ -22,11 +22,6 @@
   &:focus {
     border-color: $accent-blue-color;
   }
-  &:hover .partners__icon,
-  &:focus .partners__icon {
-    fill: $accent-blue-color;
-    border-color: $accent-blue-color;
-  }
 }
 
 .partners__icon {
@@ -34,4 +29,10 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: $cubic-bezier;
+
+  .partners__link:hover &,
+  .partners__link:focus & {
+    fill: $accent-blue-color;
+    border-color: $accent-blue-color;
+  }
 }

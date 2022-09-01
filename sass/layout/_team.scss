@@ -18,15 +18,15 @@
   padding-bottom: 30px;
 }
 
-.team__name {
-  @include fonts(500, 16px, 1.18, 0.03em);
-  text-align: center;
-  color: $main-title-color;
-}
-.team__job {
-  margin-top: 10px;
-  margin-bottom: 16px;
-  @include fonts(null, 16px, 1.18, 0.03em);
-  text-align: center;
-  color: $main-text-color;
-}
+// .team__title {
+//   @include fonts(500, 16px, 1.18, 0.03em);
+//   text-align: center;
+//   color: $main-title-color;
+// }
+// .team__text {
+//   margin-top: 10px;
+//   margin-bottom: 16px;
+//   @include fonts(null, 16px, 1.18, 0.03em);
+//   text-align: center;
+//   color: $main-text-color;
+// }

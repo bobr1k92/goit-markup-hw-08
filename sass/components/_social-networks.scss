@@ -18,10 +18,6 @@
   &:focus {
     background-color: $accent-blue-color;
   }
-  &:hover .social-networks__icon,
-  &:focus .social-networks__icon {
-    fill: $default-write-color;
-  }
 }
 
 .social-networks__icon {
@@ -31,6 +27,10 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: $cubic-bezier;
+  .social-networks__link:hover &,
+  .social-networks__link:focus & {
+    fill: $default-write-color;
+  }
 }
 
 .social-networks--icon-color {

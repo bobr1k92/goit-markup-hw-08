@@ -17,7 +17,7 @@
   background-size: cover;
 }
 
-.hero_title {
+.hero__title {
   margin-left: auto;
   margin-right: auto;
   max-width: 696px;
@@ -26,7 +26,7 @@
   color: $default-write-color;
 }
 
-.hero-button {
+.hero__button {
   font-family: inherit;
   @include fonts(700, 16px, 1.87, null);
   cursor: pointer;

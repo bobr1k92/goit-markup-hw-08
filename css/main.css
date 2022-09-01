@@ -25,7 +25,7 @@ img {
   height: auto;
 }
 
-.marker {
+a {
   text-decoration: none;
 }
 
@@ -164,7 +164,7 @@ img {
   color: #2196f3;
 }
 
-.contacts-icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
   transition-property: fill;
@@ -518,9 +518,9 @@ img {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  color: #212121;
   padding: 6px 22px;
   text-align: center;
-  color: #212121;
   cursor: pointer;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -641,7 +641,7 @@ img {
   background-size: cover;
 }
 
-.hero_title {
+.hero__title {
   margin-left: auto;
   margin-right: auto;
   max-width: 696px;
@@ -653,7 +653,7 @@ img {
   color: #ffffff;
 }
 
-.hero-button {
+.hero__button {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -672,11 +672,11 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-button:hover, .hero-button:focus {
+.hero__button:hover, .hero__button:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
-.hero-button:active {
+.hero__button:active {
   color: #2196f3;
   background-color: #ffffff;
 }
@@ -686,7 +686,7 @@ img {
   gap: 30px;
 }
 
-.features__icon {
+.features__box {
   width: 270px;
   height: 120px;
   display: flex;
