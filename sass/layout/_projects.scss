@@ -1,11 +1,17 @@
 .section__title--project {
-  @include for-size(mobile-only) {
+  @include for-size(mobile) {
+    display: none;
+  }
+  @include for-size(tablet) {
     display: none;
   }
 }
 
 .projects {
-  @include for-size(mobile-only) {
+  @include for-size(mobile) {
+    display: none;
+  }
+  @include for-size(tablet) {
     display: none;
   }
   display: flex;

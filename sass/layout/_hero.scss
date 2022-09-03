@@ -15,10 +15,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @include for-size(tablet) {
+    width: 768px;
+  }
+
   @include for-size(desktop) {
     padding-top: 200px;
     padding-bottom: 200px;
-    max-width: 1600px;
+    width: 1600px;
     height: 600px;
   }
 }

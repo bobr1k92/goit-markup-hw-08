@@ -6,6 +6,7 @@
 
 .footer__container {
   display: block;
+
   @include for-size(desktop) {
     display: flex;
     align-items: baseline;
@@ -13,7 +14,10 @@
 }
 
 .footer__box {
-  margin-top: 60px;
+  @include for-size(mobile-only) {
+    margin-top: 60px;
+  }
+  
   @include for-size(desktop) {
     margin-left: 70px;
   }
@@ -34,4 +38,9 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+  @include for-size(tablet) {
+    justify-content: flex-end;
+    margin-right: 89px;
+    margin-bottom: 102px;
+  }
 }
