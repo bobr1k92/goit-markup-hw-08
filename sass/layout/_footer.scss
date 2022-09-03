@@ -17,16 +17,21 @@
   @include for-size(mobile-only) {
     margin-top: 60px;
   }
-  
+  @include for-size(tablet) {
+    position: relative;
+  }
+
   @include for-size(desktop) {
     margin-left: 70px;
   }
 }
 
 .footer__title {
-  @include for-size(mobile-only) {
-    text-align: center;
+  @include for-size(notDesktop) {
+    display: flex;
+    justify-content: right;
   }
+
   @include fonts(700, 14px, 1.14, 0.03em);
   font-style: normal;
   text-transform: uppercase;
@@ -39,8 +44,6 @@
   justify-content: center;
   gap: 10px;
   @include for-size(tablet) {
-    justify-content: flex-end;
-    margin-right: 89px;
-    margin-bottom: 102px;
+    justify-content: right;
   }
 }

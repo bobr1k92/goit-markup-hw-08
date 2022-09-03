@@ -1,19 +1,13 @@
 .section__title--project {
-  @include for-size(mobile) {
-    display: none;
-  }
-  @include for-size(tablet) {
+  @include for-size(notDesktop) {
     display: none;
   }
 }
-
 .projects {
-  @include for-size(mobile) {
+  @include for-size(notDesktop) {
     display: none;
   }
-  @include for-size(tablet) {
-    display: none;
-  }
+
   display: flex;
   gap: 30px;
 }

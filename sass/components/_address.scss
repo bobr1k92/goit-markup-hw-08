@@ -6,7 +6,7 @@
   margin-top: 9px;
 }
 .address__street {
-  display: flex;
+  display: inline-block;
   font-style: normal;
   @include fonts(null, 14px, 1.71, 0.03em);
   color: $default-write-color;
@@ -16,12 +16,10 @@
   transition-timing-function: $cubic-bezier;
 
   @include for-size(mobile-only) {
+    display: flex;
+    align-items: center;
     justify-content: center;
   }
-
-  // @include for-size(desktop) {
-  //   display: inline-block;
-  // }
 
   &:hover,
   &:focus {

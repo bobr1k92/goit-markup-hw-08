@@ -266,7 +266,7 @@ footer {
 }
 
 .address__street {
-  display: flex;
+  display: inline-block;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -278,6 +278,8 @@ footer {
 }
 @media screen and (max-width: 767.98px) {
   .address__street {
+    display: flex;
+    align-items: center;
     justify-content: center;
   }
 }
@@ -353,13 +355,13 @@ footer {
   padding: 15px 16px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767.98px) {
   .subscribe__input {
     width: 450px;
     margin-bottom: 20px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .subscribe__input {
     width: 450px;
     margin-bottom: 20px;
@@ -890,12 +892,7 @@ footer {
   color: #757575;
 }
 
-@media screen and (min-width: 480px) {
-  .section__title--project {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199.98px) {
   .section__title--project {
     display: none;
   }
@@ -905,12 +902,7 @@ footer {
   display: flex;
   gap: 30px;
 }
-@media screen and (min-width: 480px) {
-  .projects {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199.98px) {
   .projects {
     display: none;
   }
@@ -1064,6 +1056,11 @@ footer {
     margin-top: 60px;
   }
 }
+@media screen and (min-width: 768px) {
+  .footer__box {
+    position: relative;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__box {
     margin-left: 70px;
@@ -1080,9 +1077,10 @@ footer {
   color: #ffffff;
   margin-bottom: 20px;
 }
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 1199.98px) {
   .footer__title {
-    text-align: center;
+    display: flex;
+    justify-content: right;
   }
 }
 
@@ -1093,8 +1091,6 @@ footer {
 }
 @media screen and (min-width: 768px) {
   .footer__item {
-    justify-content: flex-end;
-    margin-right: 89px;
-    margin-bottom: 102px;
+    justify-content: right;
   }
 }/*# sourceMappingURL=main.css.map */
