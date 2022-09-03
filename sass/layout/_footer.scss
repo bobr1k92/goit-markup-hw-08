@@ -7,6 +7,13 @@
 .footer__container {
   display: block;
 
+  @include for-size(tablet-only) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   @include for-size(desktop) {
     display: flex;
     align-items: baseline;
@@ -17,8 +24,9 @@
   @include for-size(mobile-only) {
     margin-top: 60px;
   }
+
   @include for-size(tablet) {
-    position: relative;
+    margin-right: 86px;
   }
 
   @include for-size(desktop) {
@@ -28,10 +36,8 @@
 
 .footer__title {
   @include for-size(notDesktop) {
-    display: flex;
-    justify-content: right;
+    text-align: center;
   }
-
   @include fonts(700, 14px, 1.14, 0.03em);
   font-style: normal;
   text-transform: uppercase;
@@ -43,7 +49,4 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  @include for-size(tablet) {
-    justify-content: right;
-  }
 }

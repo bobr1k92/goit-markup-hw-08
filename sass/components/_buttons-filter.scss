@@ -21,8 +21,19 @@
 }
 
 .buttons__list {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   gap: 8px;
+
+  @include for-size(tablet) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  @include for-size(desktop) {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
 }

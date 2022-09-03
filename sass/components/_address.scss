@@ -1,5 +1,8 @@
 .address {
   flex-grow: 1;
+  @include for-size(tablet-only) {
+    margin-left: 76px;
+  }
 }
 
 .address__list .address__item + .address__item {
@@ -28,7 +31,7 @@
 }
 
 .address__link {
-  display: flex;
+  display: inline-block;
   font-style: normal;
   @include fonts(null, 14px, 1.71, 0.03em);
   color: rgba(255, 255, 255, 0.6);
@@ -38,12 +41,9 @@
   transition-timing-function: $cubic-bezier;
 
   @include for-size(mobile-only) {
+    display: flex;
     justify-content: center;
   }
-
-  // @include for-size(desktop) {
-  //   display: inline-block;
-  // }
 
   &:hover,
   &:focus {
