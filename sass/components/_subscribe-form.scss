@@ -33,7 +33,7 @@
   padding: 15px 16px;
   transition: border 250ms $cubic-bezier;
 
-  @include for-size(mobile) {
+  @include for-size(mobile-only) {
     width: 450px;
     margin-bottom: 20px;
   }
