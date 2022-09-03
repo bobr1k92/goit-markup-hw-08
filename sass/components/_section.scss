@@ -1,12 +1,19 @@
 .section__title {
-  @include fonts(700, 36px, 1.31, 0.03em);
+  @include fonts(700, 28px, 1.17, 0.03em);
   text-align: center;
-
   color: $main-title-color;
   margin-bottom: 50px;
+
+  @include for-size(desktop) {
+    @include fonts(700, 28px, 1.17, 0.03em);
+  }
 }
 .section {
-  padding: 94px 0px;
+  padding: 60px 0px;
+
+  @include for-size(desktop) {
+    padding: 94px 0px;
+  }
 }
 .section--no-padding-top {
   padding-top: 0;

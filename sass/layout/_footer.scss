@@ -5,15 +5,24 @@
 }
 
 .footer__container {
-  display: flex;
-  align-items: baseline;
+  display: block;
+  @include for-size(desktop) {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .footer__box {
-  margin-left: 70px;
+  margin-top: 60px;
+  @include for-size(desktop) {
+    margin-left: 70px;
+  }
 }
 
 .footer__title {
+  @include for-size(mobile-only) {
+    text-align: center;
+  }
   @include fonts(700, 14px, 1.14, 0.03em);
   font-style: normal;
   text-transform: uppercase;

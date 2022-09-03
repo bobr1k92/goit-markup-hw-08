@@ -6,7 +6,8 @@
   margin-top: 9px;
 }
 .address__street {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   font-style: normal;
   @include fonts(null, 14px, 1.71, 0.03em);
   color: $default-write-color;
@@ -15,6 +16,10 @@
   transition-duration: 250ms;
   transition-timing-function: $cubic-bezier;
 
+  @include for-size(desktop) {
+    display: inline-block;
+  }
+
   &:hover,
   &:focus {
     color: $accent-blue-color;
@@ -22,7 +27,8 @@
 }
 
 .address__link {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   font-style: normal;
   @include fonts(null, 14px, 1.71, 0.03em);
   color: rgba(255, 255, 255, 0.6);
@@ -30,6 +36,10 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: $cubic-bezier;
+
+  @include for-size(desktop) {
+    display: inline-block;
+  }
 
   &:hover,
   &:focus {

@@ -1,26 +1,34 @@
 .partners {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
 
 .partners__link {
-  width: 170px;
+  width: 210px;
   height: 92px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-width: 170px;
   border: 1px solid $icon-grey-color;
   border-radius: 4px;
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: $cubic-bezier;
 
+  @include for-size(tablet) {
+    width: 226px;
+  }
+
+  @include for-size(desktop) {
+    width: 170px;
+  }
+
   &:hover,
   &:focus {
-    border-color: $accent-blue-color;
+    border: 1px solid $accent-blue-color;
   }
 }
 

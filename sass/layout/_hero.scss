@@ -1,12 +1,11 @@
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  height: 400px;
   background: #c4c4c4;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
-  height: 600px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -15,24 +14,37 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @include for-size(desktop) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+  }
 }
 
 .hero__title {
+  @include fonts(900, 26px, 1.62, 0.06em);
+  text-align: center;
+  text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
-  max-width: 696px;
-  @include fonts(900, 44px, 1.36, 0.06em);
   text-transform: uppercase;
   color: $default-write-color;
+
+  @include for-size(desktop) {
+    max-width: 696px;
+    @include fonts(900, 44px, 1.36, 0.06em);
+  }
 }
 
 .hero__button {
   font-family: inherit;
-  @include fonts(700, 16px, 1.87, null);
+  @include fonts(700, 16px, 1.88, 0.06em);
   cursor: pointer;
   text-align: center;
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 24px;
   margin-top: 30px;
   color: $default-write-color;
   background-color: $accent-blue-color;
@@ -42,6 +54,10 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: $cubic-bezier;
+
+  @include for-size(desktop) {
+    padding: 10px 32px;
+  }
 
   &:hover,
   &:focus {

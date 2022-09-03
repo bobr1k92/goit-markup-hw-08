@@ -11,6 +11,11 @@
 }
 .footer__logo {
   margin-bottom: 20px;
+  @include for-size(mobile-only) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .logo__dark {
   color: $default-black-color;

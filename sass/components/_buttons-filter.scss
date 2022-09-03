@@ -1,5 +1,5 @@
 .buttons {
-  @include fons(500, 16px, 1.62, 0.03em);
+  @include fonts(500, 16px, 1.62, 0.03em);
   color: $main-title-color;
   padding: 6px 22px;
   text-align: center;
