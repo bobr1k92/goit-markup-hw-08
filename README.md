@@ -1,2 +1,2 @@
-# goit-markup-hw-07
-Методологія ВЕМ. Препроцесор SASS.
+# goit-markup-hw-08
+Адаптивная вёрстка. Mobile-first.
