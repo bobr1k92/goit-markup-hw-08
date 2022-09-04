@@ -21,10 +21,10 @@
 }
 
 .buttons__list {
-  margin-bottom: 40px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  margin-bottom: 40px;
   gap: 8px;
 
   @include for-size(tablet) {

@@ -21,15 +21,18 @@
   </head>
   <body>
     <!-- header section -->
-    <header class="header block">
-      <div class="container header__container">
+  <header class="header block">
+    <div class="container header__container">
         <a href="" class="logo header__logo"
           >Web<span class="logo__dark">Studio</span></a
         >
+      <button type="button" class="mobile-menu__open">Open</button>
+      <div class="mobile-menu">
+      <button type="button" class="mobile-menu__close">Close</button>
         <nav class="navigation">
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a href="" class="site-nav__link current">Студия</a>
+              <a href="" class="site-nav__link site-nav__link--current">Студия</a>
             </li>
             <li class="site-nav__item">
               <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
@@ -41,6 +44,14 @@
         </nav>
         <ul class="contacts">
           <li>
+            <a href="tel:+380961111111" class="contacts__link contacts__link--tel">
+              <svg class="contacts__icon" width="10" height="16">
+                <use href="./image/icon.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+          <li>
             <a href="mailto:info@devstudio.com" class="contacts__link">
               <svg class="contacts__icon" width="16" height="12">
                 <use href="./image/icon.svg#icon-envelope"></use>
@@ -48,20 +59,30 @@
               info@devstudio.com
             </a>
           </li>
-          <li>
-            <a href="tel:+380961111111" class="contacts__link">
-              <svg class="contacts__icon" width="10" height="16">
-                <use href="./image/icon.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11
-            </a>
+        </ul>
+        <ul class="social-contacts__list">
+          <li class="social-contacts__item">
+            <a href="" class="social-contacts__link">Instagram</a
+            >
+          </li>
+          <li class="social-contacts__item">
+            <a href="" class="social-contacts__link">Twitter</a
+            >
+          </li>
+          <li class="social-contacts__item">
+            <a href="" class="social-contacts__link">Facebook</a
+            >
+          </li>
+          <li class="social-contacts__item">
+            <a href="" class="social-contacts__link">LinkedIn</a>
           </li>
         </ul>
       </div>
-    </header>
+    </div>
+  </header>
     <!-- Main section -->
     <main>
-      <section class="hero block">
+      <section class="hero">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для <br> вашого бізнесу</h1>
           <button type="button" class="hero__button" data-modal-open
@@ -71,7 +92,7 @@
       </section>
 
       <!-- Features section -->
-      <section class="section block">
+      <section class="section">
         <div class="container">
           <h2 class="section__title visually-hidden">Особливості</h2>
           <ul class="features">
@@ -123,7 +144,7 @@
         </div>
       </section>
       <!-- Project section -->
-      <section class="section section--no-padding-top block">
+      <section class="section section--no-padding-top">
         <div class="container">
           <h2 class="section__title section__title--project"
             >Чим ми займаємося</h2
@@ -160,7 +181,7 @@
         </div>
       </section>
       <!-- Team section  -->
-      <section class="section team--bacground-color block">
+      <section class="section team--bacground-color">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team">
@@ -335,7 +356,7 @@
           </ul>
         </div>
       </section>
-      <section class="section block">
+      <section class="section">
         <div class="container">
           <h3 class="section__title">Постійні клієнти</h3>
           <ul class="partners">
@@ -386,7 +407,7 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer class="footer block">
+    <footer class="footer">
       <div class="container footer__container">
           <div class="address">
             <a href="" class="logo footer__logo"
@@ -565,5 +586,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

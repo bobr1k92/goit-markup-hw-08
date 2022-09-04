@@ -12,7 +12,6 @@
 
 .cards__item {
   width: 354px;
-  // height: 405px;
 }
 
 .cards__link {
@@ -20,6 +19,12 @@
   transition-property: box-shadow, border-radius;
   transition-duration: 250ms;
   transition-timing-function: $cubic-bezier;
+
+  @include for-size(tablet) {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 
   &:hover,
   &:focus {
@@ -36,6 +41,10 @@
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+
+  @include for-size(tablet) {
+    flex-grow: 1;
+  }
 }
 
 .cards__name {

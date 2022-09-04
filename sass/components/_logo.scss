@@ -5,9 +5,13 @@
   color: $accent-blue-color;
 }
 .header__logo {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding: 16px 0px;
+
+  @include for-size(desktop) {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 .footer__logo {
   margin-bottom: 20px;

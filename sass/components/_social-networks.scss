@@ -40,3 +40,29 @@
 .social-networks--background-color {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+// Social-contacts
+
+.social-contacts__list {
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+
+  @include for-size(tablet) {
+    display: none;
+  }
+}
+
+.social-contacts__link {
+  display: flex;
+  @include fonts(500, 18px, 1.22, 0.02em);
+  margin-top: 64px;
+  padding-right: 10px;
+  margin-left: 10px;
+  color: $accent-blue-color;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+
+  &:not(:last-child) {
+    border-right: none;
+  }
+}
