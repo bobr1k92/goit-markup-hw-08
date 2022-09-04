@@ -3,8 +3,12 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  @include for-size(desktop) {
+  @include for-size(tablet) {
     margin-left: auto;
+  }
+  @include for-size(desktop) {
+    flex-direction: row-reverse;
+    align-items: center;
     gap: 50px;
   }
 }
@@ -31,12 +35,11 @@
 
 .contacts__link--tel {
   @include for-size(mobile-only) {
-    margin-top: 306px;
     padding-bottom: 32px;
     @include fonts(500, 34px, 1.13, 0.02em);
     color: $accent-blue-color;
   }
-  @include for-size(tablet) {
+  @include for-size(tablet-only) {
     margin-top: 10px;
   }
 }

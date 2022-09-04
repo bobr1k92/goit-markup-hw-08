@@ -7,6 +7,12 @@
 .header__logo {
   padding: 16px 0px;
 
+  @include for-size(tablet) {
+    margin-right: 88px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
   @include for-size(desktop) {
     margin-right: 93px;
     padding-top: 24px;

@@ -30,7 +30,6 @@
   }
 
   @include for-size(tablet) {
-    display: block;
     @include fonts(500, 14px, 1.14, 0.02em);
     padding-top: 32px;
   }
