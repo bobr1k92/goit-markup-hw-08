@@ -9,6 +9,11 @@
     display: flex;
   }
 }
+.site-nav .site-nav__item + .site-nav__item {
+  @include for-size(tablet) {
+    margin-left: 50px;
+  }
+}
 
 .site-nav__link {
   position: relative;
@@ -30,29 +35,25 @@
     padding-top: 32px;
   }
 
-  .site-nav__link--current::after {
-    position: absolute;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 4px;
-    background-color: $accent-blue-color;
-    border-radius: 4px;
-    left: 0;
-    bottom: -1px;
-  }
   &:hover,
   &:focus {
     color: $accent-blue-color;
   }
 }
-
-.site-nav .site-nav__item + .site-nav__item {
-  @include for-size(tablet) {
-    margin-left: 50px;
-  }
-}
-
 .site-nav__link--current {
   color: $accent-blue-color;
+
+  @include for-size(tablet) {
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 100%;
+      height: 4px;
+      background-color: $accent-blue-color;
+      border-radius: 4px;
+      left: 0;
+      bottom: -1px;
+    }
+  }
 }

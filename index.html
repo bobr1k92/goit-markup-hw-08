@@ -28,7 +28,6 @@
         >
       <button type="button" class="mobile-menu__open">Open</button>
       <div class="mobile-menu">
-      <button type="button" class="mobile-menu__close">Close</button>
         <nav class="navigation">
           <ul class="site-nav">
             <li class="site-nav__item">
@@ -77,12 +76,15 @@
             <a href="" class="social-contacts__link">LinkedIn</a>
           </li>
         </ul>
+        <button type="button" class="mobile-menu__close"><svg width="18" height="18">
+          <use href="./image/icon.svg#icon-btn-close"></use>
+        </svg></button>
       </div>
     </div>
   </header>
     <!-- Main section -->
     <main>
-      <section class="hero">
+      <section class="hero block">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для <br> вашого бізнесу</h1>
           <button type="button" class="hero__button" data-modal-open
@@ -92,7 +94,7 @@
       </section>
 
       <!-- Features section -->
-      <section class="section">
+      <section class="section block">
         <div class="container">
           <h2 class="section__title visually-hidden">Особливості</h2>
           <ul class="features">
@@ -144,7 +146,7 @@
         </div>
       </section>
       <!-- Project section -->
-      <section class="section section--no-padding-top">
+      <section class="section section--no-padding-top block">
         <div class="container">
           <h2 class="section__title section__title--project"
             >Чим ми займаємося</h2
@@ -181,7 +183,7 @@
         </div>
       </section>
       <!-- Team section  -->
-      <section class="section team--bacground-color">
+      <section class="section team--bacground-color block">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team">
@@ -356,7 +358,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section block">
         <div class="container">
           <h3 class="section__title">Постійні клієнти</h3>
           <ul class="partners">
@@ -407,7 +409,7 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer class="footer">
+    <footer class="footer block">
       <div class="container footer__container">
           <div class="address">
             <a href="" class="logo footer__logo"

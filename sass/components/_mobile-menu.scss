@@ -14,8 +14,17 @@
   transform: translateX(0);
 }
 
+.mobile-menu__open {
+  @include for-size(tablet) {
+    display: none;
+  }
+}
+
 .mobile-menu__close {
   position: absolute;
   top: 0;
   right: 0;
+  @include for-size(tablet) {
+    display: none;
+  }
 }
