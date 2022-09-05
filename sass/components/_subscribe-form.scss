@@ -35,7 +35,10 @@
   transition: border 250ms $cubic-bezier;
 
   @include for-size(mobile) {
+    max-width: 450px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   @include for-size(tablet-only) {
     margin-left: auto;
