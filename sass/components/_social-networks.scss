@@ -45,6 +45,7 @@
 
 .social-contacts__list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: -10px;
 
@@ -54,7 +55,9 @@
 }
 
 .social-contacts__link {
-  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
   @include fonts(500, 18px, 1.22, 0.02em);
   margin-top: 64px;
   padding-right: 10px;
