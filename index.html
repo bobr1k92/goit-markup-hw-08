@@ -136,7 +136,7 @@
             <li class="fetures-item">
               <div class="features__box">
                 <svg class="" width="70" height="70">
-                  <use href="./i/icon.svg#icon-astronaut-1"></use>
+                  <use href="./img/icon.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
               <h3 class="features__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
@@ -154,31 +154,28 @@
             >Чим ми займаємося</h2
           >
           <ul class="projects">
-            <li class="projects__item">
-              <img
-                src="./img/img1.jpg"
-                alt="верстак кода"
-                width="370"
-                height="294"
-              />
+            <li class="projects__item"><picture>
+              <source
+                srcset="./img/projects/projectdesk1@1x.jpg 1x, ./img/projects/projectdesk1@2x.jpg 2x"
+              /><img src="./img/projects/project1.jpg" alt="computer" class="project__img" width="370"
+              height="294"/>
+            </picture>
               <p class="projects__text">Десктопні додатки</p>
             </li>
             <li class="projects__item">
-              <img
-                src="./img/img2.jpg"
-                alt="мобильный дизайна"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./img/projects/projectdesk2@1x.jpg 1x, ./img/projects/projectdesk2@2x.jpg 2x"
+                /><img src="./img/projects/project2.jpg" alt="phone" class="project__img" width="370"
+                height="294"/>
               <p class="projects__text">Мобільні додатки</p>
             </li>
             <li class="projects__item">
-              <img
-                src="./img/img3.jpg"
-                alt="цветовая гамма"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./img/projects/projectdesk3@1x.jpg 1x, ./img/projects/projectdesk3@2x.jpg 2x"
+                /><img src="./img/projects/project3.jpg" alt="tablet" class="project__img" width="370"
+                height="294"/>
               <p class="projects__text">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -239,13 +236,21 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item">
-              <img
-                src="./img/foto2.jpg"
-                alt="Ольга Репина"
-                width="450"
-                height="460"
+            <li class="team__item"><picture>
+              <source
+                srcset="./img/team/teamdesk2@1x.jpg 1x, ./img/team/teamdesk2@2x 2x"
+                media="(min-width:1200px)"
               />
+              <source
+                srcset="./img/team/teamtab2@1x.jpg 1x, ./img/team/teamtab2@2x.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./img/team/teamtab2@1x.jpg 1x, ./img/team/teamtab2@2x.jpg 2x"
+                media="(max-width:767px)"
+              />
+              <img src="./img/team/team2.jpg" alt="man" class="team__img" />
+            </picture>
               <div class="team__cart">
                 <h3 class="team__title">Ольга Репіна</h3>
                 <p class="team__text">Frontend Developer</p>
@@ -281,13 +286,21 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item">
-              <img
-                src="./img/foto3.jpg"
-                alt="Николай Тарасов"
-                width="450"
-                height="460"
+            <li class="team__item"><picture>
+              <source
+                srcset="./img/team/teamdesk3@1x.jpg 1x, ./img/team/teamdesk3@2x 2x"
+                media="(min-width:1200px)"
               />
+              <source
+                srcset="./img/team/teamtab3@1x.jpg 1x, ./img/team/teamtab3@2x.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./img/team/teamtab3@1x.jpg 1x, ./img/team/teamtab3@2x.jpg 2x"
+                media="(max-width:767px)"
+              />
+              <img src="./img/team/team3.jpg" alt="man" class="team__img" />
+            </picture>
               <div class="team__cart">
                 <h3 class="team__title">Микола Тарасов</h3>
                 <p class="team__text">Marketing</p>
@@ -324,12 +337,21 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                src="./img/foto4.jpg"
-                alt="Михаил Ермаков"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  srcset="./img/team/teamdesk4@1x.jpg 1x, ./img/team/teamdesk4@2x 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./img/team/teamtab4@1x.jpg 1x, ./img/team/teamtab4@2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./img/team/teamtab4@1x.jpg 1x, ./img/team/teamtab4@2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./img/team/team4.jpg" alt="man" class="team__img" />
+              </picture>
               <div class="team__cart">
                 <h3 class="team__title">Михайло Єрмаков</h3>
                 <p class="team__text">UI Designer</p>
