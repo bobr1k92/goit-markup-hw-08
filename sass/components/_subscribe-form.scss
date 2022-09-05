@@ -34,13 +34,13 @@
   padding: 15px 16px;
   transition: border 250ms $cubic-bezier;
 
-  @include for-size(mobile) {
-    max-width: 450px;
+  @include for-size(mobile-only) {
+    width: 450px;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
   }
   @include for-size(tablet-only) {
+    width: 450px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
   }
