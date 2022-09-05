@@ -342,7 +342,6 @@ footer {
 
 .social-contacts__list {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   margin-left: -10px;
 }
@@ -353,8 +352,7 @@ footer {
 }
 
 .social-contacts__link {
-  flex-wrap: wrap;
-  align-items: center;
+  display: flex;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
