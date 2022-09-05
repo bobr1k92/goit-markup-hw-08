@@ -43,25 +43,8 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1) rotate(0);
   transition: transform 250ms $cubic-bezier, min-height 250ms $cubic-bezier;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  max-width: 100%;
-=======
-  max-width: 450px;
->>>>>>> parent of 42e730a (width)
-=======
-  max-width: 450px;
->>>>>>> parent of 42e730a (width)
-=======
-  max-width: 450px;
->>>>>>> parent of 42e730a (width)
-  height: 100%;
-=======
   width: 450px;
-  height: 609px;
->>>>>>> parent of 4ffc6c0 (modal)
+  min-height: 100%;
   background-color: $default-write-color;
   border-radius: 4px;
   @include for-size(desktop) {
