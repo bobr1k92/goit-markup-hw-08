@@ -1,15 +1,18 @@
-.container {
-  margin-left: auto;
-  margin-right: auto;
+.conteiner {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 
-  @include for-size(mobile-only) {
+  @include for-size(mobile) {
     width: 480px;
   }
+
   @include for-size(tablet) {
     width: 768px;
   }
+
   @include for-size(desktop) {
     width: 1200px;
   }

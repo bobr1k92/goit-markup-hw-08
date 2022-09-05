@@ -4,8 +4,11 @@
   background: $second-black-color;
 }
 
-.footer__container {
-  display: block;
+.footer-conteiner {
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+  }
 
   @include for-size(tablet-only) {
     display: flex;
