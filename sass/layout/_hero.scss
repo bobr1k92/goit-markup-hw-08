@@ -7,11 +7,29 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../image/overlay.jpg);
+
+  background-image: $linear-gradient, url(../img/hero/hero-mobile.jpg);
+
+  @include for-size(retina) {
+    background-image: $linear-gradient, url(../img/hero/hero-mobile@2x.jpg);
+  }
+
+  @include for-size(tablet) {
+    background-image: $linear-gradient, url(../img/hero/hero-tablet.jpg);
+
+    @include for-size(retina) {
+      background-image: $linear-gradient, url(../img/hero/hero-tablet@2x.jpg);
+    }
+  }
+
+  @include for-size(desktop) {
+    background-image: $linear-gradient, url(../img/hero/hero-desktop.jpg);
+
+    @include for-size(retina) {
+      background-image: $linear-gradient, url(../img/hero/hero-desktop@2x.jpg);
+    }
+  }
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
