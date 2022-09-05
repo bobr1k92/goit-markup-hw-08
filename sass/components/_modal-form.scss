@@ -43,7 +43,7 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1) rotate(0);
   transition: transform 250ms $cubic-bezier, min-height 250ms $cubic-bezier;
-  width: 450px;
+  max-width: 450px;
   height: 609px;
   background-color: $default-write-color;
   border-radius: 4px;
