@@ -4,19 +4,15 @@
   background: $second-black-color;
 }
 
-.footer-conteiner {
-  @media screen and (max-width: 768px) {
-    display: block;
-    text-align: center;
-  }
-
+.footer__container {
+  display: block;
+  text-align: center;
   @include for-size(tablet-only) {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
   }
-
   @include for-size(desktop) {
     display: flex;
     align-items: baseline;
@@ -38,14 +34,14 @@
 }
 
 .footer__title {
-  @include for-size(notDesktop) {
-    text-align: center;
-  }
   @include fonts(700, 14px, 1.14, 0.03em);
   font-style: normal;
   text-transform: uppercase;
   color: $default-write-color;
   margin-bottom: 20px;
+  @include for-size(notDesktop) {
+    text-align: center;
+  }
 }
 
 .footer__item {

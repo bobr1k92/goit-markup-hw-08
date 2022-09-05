@@ -84,24 +84,24 @@ footer {
   padding-top: 0;
 }
 
-.conteiner {
+.container {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (min-width: 480px) {
-  .conteiner {
+  .container {
     width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
-  .conteiner {
+  .container {
     width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .conteiner {
+  .container {
     width: 1200px;
   }
 }
@@ -467,7 +467,7 @@ footer {
 }
 @media screen and (max-width: 767.98px) {
   .subscribe__input {
-    width: 450px;
+    max-width: 450px;
     margin-bottom: 20px;
   }
 }
@@ -571,7 +571,7 @@ footer {
   transform: translate(-50%, -50%) scale(1) rotate(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), min-height 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 450px;
-  min-height: 100%;
+  max-height: 100%;
   background-color: #ffffff;
   border-radius: 4px;
 }
@@ -1249,14 +1249,12 @@ footer {
   background: #2f303a;
 }
 
-@media screen and (max-width: 768px) {
-  .footer-conteiner {
-    display: block;
-    text-align: center;
-  }
+.footer__container {
+  display: block;
+  text-align: center;
 }
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-  .footer-conteiner {
+  .footer__container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -1264,7 +1262,7 @@ footer {
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer-conteiner {
+  .footer__container {
     display: flex;
     align-items: baseline;
   }
