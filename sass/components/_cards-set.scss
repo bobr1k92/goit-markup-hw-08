@@ -11,7 +11,9 @@
 }
 
 .cards__item {
-  width: 354px;
+  @include for-size(tablet-only) {
+    width: 354px;
+  }
 }
 
 .cards__link {
