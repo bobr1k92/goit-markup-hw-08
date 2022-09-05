@@ -28,6 +28,10 @@
 }
 
 .mobile-menu__open {
+  display: block;
+  padding-top: 9px;
+  padding-right: 15px;
+  background-color: $default-write-color;
   border: none;
   cursor: pointer;
   @include for-size(tablet) {
@@ -36,11 +40,22 @@
 }
 
 .mobile-menu__close {
-  position: absolute;
-  top: 0;
-  right: 0;
+  background-color: $default-write-color;
+  display: block;
+  padding-top: 9px;
+  padding-right: 15px;
+  margin-left: auto;
+  border: none;
   cursor: pointer;
   @include for-size(tablet) {
     display: none;
+  }
+}
+.mobile-menu__icon {
+  background-color: $default-write-color;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    fill: $accent-blue-color;
   }
 }

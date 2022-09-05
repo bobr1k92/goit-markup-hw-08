@@ -897,6 +897,10 @@ footer {
 }
 
 .mobile-menu__open {
+  display: block;
+  padding-top: 9px;
+  padding-right: 15px;
+  background-color: #ffffff;
   border: none;
   cursor: pointer;
 }
@@ -907,15 +911,27 @@ footer {
 }
 
 .mobile-menu__close {
-  position: absolute;
-  top: 0;
-  right: 0;
+  background-color: #ffffff;
+  display: block;
+  padding-top: 9px;
+  padding-right: 15px;
+  margin-left: auto;
+  border: none;
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
   .mobile-menu__close {
     display: none;
   }
+}
+
+.mobile-menu__icon {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.mobile-menu__icon:hover {
+  fill: #2196f3;
 }
 
 .header__container {
