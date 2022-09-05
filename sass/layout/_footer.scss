@@ -39,6 +39,7 @@
   text-transform: uppercase;
   color: $default-write-color;
   margin-bottom: 20px;
+
   @include for-size(notDesktop) {
     text-align: center;
   }

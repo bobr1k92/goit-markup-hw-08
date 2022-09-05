@@ -341,6 +341,7 @@ footer {
 
 .social-contacts__list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: -10px;
 }
@@ -368,11 +369,6 @@ footer {
 
 .address {
   flex-grow: 1;
-}
-@media screen and (min-width: 768px) and (max-width: 1199.98px) {
-  .address {
-    margin-left: 76px;
-  }
 }
 
 .address__list .address__item + .address__item {
@@ -1207,7 +1203,7 @@ footer {
 }
 
 .partners__link {
-  width: 100%;
+  width: 210px;
   height: 92px;
   display: flex;
   align-items: center;

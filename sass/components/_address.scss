@@ -1,8 +1,5 @@
 .address {
   flex-grow: 1;
-  @include for-size(tablet-only) {
-    margin-left: 76px;
-  }
 }
 
 .address__list .address__item + .address__item {
