@@ -12,7 +12,7 @@
 }
 
 .subscribe__title {
-  @include fonts(null, 14px, 1.14, 0.03em);
+  @include fonts(700, 14px, 1.14, 0.03em);
   text-transform: uppercase;
   color: $default-write-color;
   margin-bottom: 10px;
