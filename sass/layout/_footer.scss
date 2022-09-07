@@ -6,7 +6,10 @@
 
 .footer__container {
   display: block;
-  text-align: center;
+  @include for-size(notDesktop) {
+    text-align: center;
+  }
+
   @include for-size(tablet-only) {
     display: flex;
     flex-wrap: wrap;
@@ -24,10 +27,6 @@
     margin-top: 60px;
   }
 
-  @include for-size(tablet) {
-    margin-right: 86px;
-  }
-
   @include for-size(desktop) {
     margin-left: 70px;
   }
@@ -39,10 +38,6 @@
   text-transform: uppercase;
   color: $default-write-color;
   margin-bottom: 20px;
-
-  @include for-size(notDesktop) {
-    text-align: center;
-  }
 }
 
 .footer__item {

@@ -30,9 +30,6 @@
         <use href="./img/icon.svg#icon-mobile_menu_40"></use>
       </svg></button>
       <div class="mobile-menu">
-        <button type="button" class="mobile-menu__close"><svg class="mobile-menu__icon" width="40" height="40">
-          <use href="./img/icon.svg#icon-mobile_close_40"></use>
-        </svg></button>
         <nav class="navigation">
           <ul class="site-nav">
             <li class="site-nav__item">
@@ -47,20 +44,20 @@
           </ul>
         </nav>
         <ul class="contacts">
-          <li>
-            <a href="tel:+380961111111" class="contacts__link contacts__link--tel">
-              <svg class="contacts__icon" width="10" height="16">
-                <use href="./img/icon.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11
-            </a>
-          </li>
-          <li>
+          <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="contacts__link">
               <svg class="contacts__icon" width="16" height="12">
                 <use href="./img/icon.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link contacts__link--tel">
+              <svg class="contacts__icon" width="10" height="16">
+                <use href="./img/icon.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
             </a>
           </li>
         </ul>
@@ -81,6 +78,9 @@
             <a href="" class="social-contacts__link">LinkedIn</a>
           </li>
         </ul>
+        <button type="button" class="mobile-menu__close"><svg class="mobile-menu__icon" width="40" height="40">
+          <use href="./img/icon.svg#icon-mobile_close_40"></use>
+        </svg></button>
       </div>
     </div>
   </header>
@@ -157,8 +157,7 @@
             <li class="projects__item"><picture>
               <source
                 srcset="./img/projects/projectdesk1@1x.jpg 1x, ./img/projects/projectdesk1@2x.jpg 2x"
-              /><img src="./img/projects/project1.jpg" alt="computer" class="project__img" width="370"
-              height="294"/>
+              /><img src="./img/projects/project1.jpg" alt="computer" class="project__img"/>
             </picture>
               <p class="projects__text">Десктопні додатки</p>
             </li>
@@ -166,16 +165,14 @@
               <picture>
                 <source
                   srcset="./img/projects/projectdesk2@1x.jpg 1x, ./img/projects/projectdesk2@2x.jpg 2x"
-                /><img src="./img/projects/project2.jpg" alt="phone" class="project__img" width="370"
-                height="294"/>
+                /><img src="./img/projects/project2.jpg" alt="phone" class="project__img"/>
               <p class="projects__text">Мобільні додатки</p>
             </li>
             <li class="projects__item">
               <picture>
                 <source
                   srcset="./img/projects/projectdesk3@1x.jpg 1x, ./img/projects/projectdesk3@2x.jpg 2x"
-                /><img src="./img/projects/project3.jpg" alt="tablet" class="project__img" width="370"
-                height="294"/>
+                /><img src="./img/projects/project3.jpg" alt="tablet" class="project__img"/>
               <p class="projects__text">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -188,7 +185,7 @@
           <ul class="team">
             <li class="team__item"><picture>
               <source
-                srcset="./img/team/teamdesk1@1x.jpg 1x, ./img/team/teamdesk1@2x 2x"
+                srcset="./img/team/teamdesk1@1x.jpg 1x, ./img/team/teamdesk1@2x.jpg 2x"
                 media="(min-width:1200px)"
               />
               <source
@@ -196,7 +193,7 @@
                 media="(min-width:768px)"
               />
               <source
-                srcset="./img/team/teamtab1@1x.jpg 1x, ./img/team/teamtab1@2x.jpg 2x"
+                srcset="./img/team/teammob1@1x.jpg 1x, ./img/team/teammob1@2x.jpg 2x"
                 media="(max-width:767px)"
               />
               <img src="./img/team/team1.jpg" alt="man" class="team__img" />
@@ -238,7 +235,7 @@
             </li>
             <li class="team__item"><picture>
               <source
-                srcset="./img/team/teamdesk2@1x.jpg 1x, ./img/team/teamdesk2@2x 2x"
+                srcset="./img/team/teamdesk2@1x.jpg 1x, ./img/team/teamdesk2@2x.jpg 2x"
                 media="(min-width:1200px)"
               />
               <source
@@ -246,7 +243,7 @@
                 media="(min-width:768px)"
               />
               <source
-                srcset="./img/team/teamtab2@1x.jpg 1x, ./img/team/teamtab2@2x.jpg 2x"
+                srcset="./img/team/teammob2@1x.jpg 1x, ./img/team/teammob2@2x.jpg 2x"
                 media="(max-width:767px)"
               />
               <img src="./img/team/team2.jpg" alt="man" class="team__img" />
@@ -288,7 +285,7 @@
             </li>
             <li class="team__item"><picture>
               <source
-                srcset="./img/team/teamdesk3@1x.jpg 1x, ./img/team/teamdesk3@2x 2x"
+                srcset="./img/team/teamdesk3@1x.jpg 1x, ./img/team/teamdesk3@2x.jpg 2x"
                 media="(min-width:1200px)"
               />
               <source
@@ -296,7 +293,7 @@
                 media="(min-width:768px)"
               />
               <source
-                srcset="./img/team/teamtab3@1x.jpg 1x, ./img/team/teamtab3@2x.jpg 2x"
+                srcset="./img/team/teammob3@1x.jpg 1x, ./img/team/teammob3@2x.jpg 2x"
                 media="(max-width:767px)"
               />
               <img src="./img/team/team3.jpg" alt="man" class="team__img" />
@@ -339,15 +336,15 @@
             <li class="team__item">
               <picture>
                 <source
-                  srcset="./img/team/teamdesk4@1x.jpg 1x, ./img/team/teamdesk4@2x 2x"
-                  media="(min-width:1200px)"
-                />
+                srcset="./img/team/teamdesk4@1x.jpg 1x, ./img/team/teamdesk4@2x.jpg 2x"
+                media="(min-width:1200px)"
+              />
                 <source
                   srcset="./img/team/teamtab4@1x.jpg 1x, ./img/team/teamtab4@2x.jpg 2x"
                   media="(min-width:768px)"
                 />
                 <source
-                  srcset="./img/team/teamtab4@1x.jpg 1x, ./img/team/teamtab4@2x.jpg 2x"
+                  srcset="./img/team/teammob4@1x.jpg 1x, ./img/team/teammob4@2x.jpg 2x"
                   media="(max-width:767px)"
                 />
                 <img src="./img/team/team4.jpg" alt="man" class="team__img" />
@@ -392,7 +389,7 @@
       </section>
       <section class="section block">
         <div class="container">
-          <h3 class="section__title">Постійні клієнти</h3>
+          <h3 class="section__title section__title--margin-bottom">Постійні клієнти</h3>
           <ul class="partners">
             <li>
               <a href="" class="partners__link">

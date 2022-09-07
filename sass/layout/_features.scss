@@ -33,6 +33,13 @@
 }
 
 .fetures-item {
+  @include for-size(mobile-only) {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
   @include for-size(tablet-only) {
     width: calc(50% - 15px);
   }

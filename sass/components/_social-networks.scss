@@ -47,6 +47,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 64px;
   margin-left: -10px;
 
   @include for-size(tablet) {
@@ -57,7 +58,6 @@
 .social-contacts__link {
   display: flex;
   @include fonts(500, 18px, 1.22, 0.02em);
-  margin-top: 64px;
   padding-right: 10px;
   margin-left: 10px;
   color: $accent-blue-color;

@@ -1,8 +1,8 @@
 .hero {
-  width: 100%;
+  max-width: 1600px;
+  max-height: 600px;
   padding-top: 118px;
   padding-bottom: 118px;
-  height: 400px;
   background: #c4c4c4;
   text-align: center;
   margin-left: auto;
@@ -34,15 +34,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  @include for-size(tablet) {
-    width: 768px;
-  }
-
   @include for-size(desktop) {
     padding-top: 200px;
     padding-bottom: 200px;
-    width: 1600px;
-    height: 600px;
   }
 }
 

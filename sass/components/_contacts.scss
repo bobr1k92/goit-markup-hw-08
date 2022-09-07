@@ -1,17 +1,39 @@
 .contacts {
-  @include for-size(tablet) {
-    display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
+  @include for-size(mobile-only) {
+    margin-top: auto;
   }
+
   @include for-size(tablet) {
+    flex-direction: column;
     margin-left: auto;
   }
   @include for-size(desktop) {
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     gap: 50px;
   }
 }
+.contacts__item {
+  display: block;
+
+  @include for-size(mobile-only) {
+    margin-bottom: 32px;
+
+    &:first-child {
+      margin-bottom: 0;
+    }
+  }
+  @include for-size(tablet-only) {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .contacts__link {
   display: flex;
   align-items: center;
@@ -35,12 +57,8 @@
 
 .contacts__link--tel {
   @include for-size(mobile-only) {
-    padding-bottom: 32px;
     @include fonts(500, 34px, 1.13, 0.02em);
     color: $accent-blue-color;
-  }
-  @include for-size(tablet-only) {
-    margin-top: 10px;
   }
 }
 

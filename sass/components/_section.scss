@@ -5,7 +5,7 @@
   margin-bottom: 50px;
 
   @include for-size(desktop) {
-    @include fonts(700, 28px, 1.17, 0.03em);
+    @include fonts(700, 36px, 1.16, 0.03em);
   }
 }
 .section {
@@ -16,5 +16,11 @@
   }
 }
 .section--no-padding-top {
+  @include for-size(notDesktop) {
+    padding-bottom: 0;
+  }
   padding-top: 0;
+}
+.section__title--margin-bottom {
+  margin-bottom: 30px;
 }

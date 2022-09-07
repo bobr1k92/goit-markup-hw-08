@@ -14,24 +14,29 @@
     margin-left: 50px;
   }
 }
+.site-nav__item {
+  @include for-size(mobile-only) {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
 
 .site-nav__link {
   position: relative;
   display: block;
-  padding-bottom: 32px;
   @include fonts(500, 40px, 1.17, 0.02em);
   color: $main-title-color;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: $cubic-bezier;
 
-  &:not(:last-child) {
-    padding-bottom: 0;
-  }
-
   @include for-size(tablet) {
     @include fonts(500, 14px, 1.14, 0.02em);
     padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   &:hover,

@@ -1,5 +1,8 @@
 .subscribe__form {
   display: block;
+  @include for-size(notDesktop) {
+    margin-top: 60px;
+  }
 
   @include for-size(desktop) {
     display: flex;
@@ -13,11 +16,7 @@
   text-transform: uppercase;
   color: $default-write-color;
   margin-bottom: 10px;
-
-  @include for-size(notDesktop) {
-    text-align: center;
-    margin-top: 60px;
-  }
+  @include for-size(mobile);
 }
 
 .subscribe__input {
